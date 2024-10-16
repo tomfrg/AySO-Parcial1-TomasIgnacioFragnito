@@ -23,3 +23,11 @@ chmod u=rwx,g=,o= /alumno_3
 chmod u=rwx,g=rwx,o=rx /profesores
 
 echo "whoami" > alumno_1/validar.txt && echo "whoami" > alumno_2/validar.txt && echo "whoami" > alumno_3/validar.txt && echo "whoami" > profesores/validar.txt
+
+ls -l
+
+RESULTADO:
+drwxrwx--- 5 programadores grupoprogramadores 4096 Oct 16 00:25 alumno_1
+drwxrw---- 5 tester        grupotester        4096 Oct 16 00:25 alumno_2
+drwx------ 5 analistas     grupoanalistas     4096 Oct 16 00:25 alumno_3
+drwxr-xr-x 2 disenadores   grupodisenadores   4096 Oct 16 00:25 profesores
